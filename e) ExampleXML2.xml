@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<af:animeFilmCollection xmlns:af="http://example.org/anime-film"
+                        xmlns:dc="http://purl.org/dc/elements/1.1/"
+                        xmlns:schema="https://schema.org/"
+                        xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+                        xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004"
+                        xmlns:mods="http://www.loc.gov/mods/v3"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="http://example.org/anime-film AF.xsd">
+    <af:animeFilm id="AF002">
+        <mods:titleInfo xml:lang="ja">
+            <mods:title>攻殻機動隊</mods:title>
+        </mods:titleInfo>
+        <mods:titleInfo type="translated" xml:lang="ko">
+            <mods:title>공각기동대</mods:title>
+        </mods:titleInfo>
+        <mods:titleInfo type="translated" xml:lang="en">
+            <mods:title>GHOST IN THE SHELL</mods:title>
+        </mods:titleInfo>
+        <mods:titleInfo xml:lang="en" script="Latin" transliteration="Hepburn">
+            <mods:title>Kōkaku Kidōtai</mods:title>
+        </mods:titleInfo>
+        <schema:director>
+            <schema:name>Oshii Mamoru</schema:name>
+            <schema:nameJa>押井 守</schema:nameJa>
+        </schema:director>
+        <schema:isBasedOn sourceType="manga">
+            <schema:sourceTitle>Ghost In The Shell</schema:sourceTitle>
+            <schema:sourceAuthor>Massamune Shiro</schema:sourceAuthor>
+        </schema:isBasedOn>
+        <schema:duration>PT83M</schema:duration>
+        <ebucore:hasProducer>
+            <ebucore:producerName>Kodansha</ebucore:producerName>
+            <ebucore:foundedYear>1938</ebucore:foundedYear>
+        </ebucore:hasProducer>
+        <ebucore:hasPublisher>
+            <ebucore:publisherName>Shochiku</ebucore:publisherName>
+            <ebucore:region>JP</ebucore:region>
+        </ebucore:hasPublisher>
+        <ebucore:hasPublisher>
+            <ebucore:publisherName>Palm Pictures</ebucore:publisherName>
+            <ebucore:region>US</ebucore:region>
+        </ebucore:hasPublisher>
+        <mpeg7:KeywordAnnotation xml:lang="en">
+            <mpeg7:keyword>identity</mpeg7:keyword>
+            <mpeg7:keyword>battle</mpeg7:keyword>
+            <mpeg7:keyword>mechanical</mpeg7:keyword>
+            <mpeg7:keyword>cyberpunk</mpeg7:keyword>
+            <mpeg7:keyword>police</mpeg7:keyword>
+        </mpeg7:KeywordAnnotation>
+        <mpeg7:KeywordAnnotation xml:lang="ko">
+            <mpeg7:keyword>정체성</mpeg7:keyword>
+            <mpeg7:keyword>전투</mpeg7:keyword>
+            <mpeg7:keyword>기계적인</mpeg7:keyword>
+            <mpeg7:keyword>사이버펑크</mpeg7:keyword>
+            <mpeg7:keyword>경찰</mpeg7:keyword>
+        </mpeg7:KeywordAnnotation>
+        <mpeg7:Classification>
+            <mpeg7:genre ClassificationScheme="IMDB">Sci-Fi</mpeg7:genre>
+            <mpeg7:genre ClassificationScheme="IMDB">Crime</mpeg7:genre>
+            <mpeg7:genre ClassificationScheme="IMDB">Action</mpeg7:genre>
+            <mpeg7:genre ClassificationScheme="IMDB">Mystery</mpeg7:genre>
+            <mpeg7:parentalGuidance ratingSystem="Eirin" region="JP">
+                <mpeg7:rating>PG12</mpeg7:rating>
+            </mpeg7:parentalGuidance>
+            <mpeg7:parentalGuidance ratingSystem="영상물 등급 제도" region="KO">
+                <mpeg7:rating>12세 이상 관람가</mpeg7:rating>
+            </mpeg7:parentalGuidance>
+        </mpeg7:Classification>
+        <dc:date>1995-11-18</dc:date>
+        <dc:description xml:lang="en">
+            It is the year 2029, in the city of Newport, Asia. In a society where the human brain has become part of the communication network, 
+            the most heinous crime is "Ghost Hacking," which involves hacking into "Ghosts"—meaning souls in a broad sense—to manipulate or alter the memories of others.
+            The Ghost in the Shell team steps forward to stop a mysterious and notorious Ghost Hacker known as the Puppet Master.
+            Major Kusanagi, a type of cyborg, and her team uncover the secrets surrounding the Puppet Master while investigating the case.
+        </dc:description>
+        <dc:description xml:lang="ko">
+            때는 서기 2029년, 아시아의 뉴포트라는 도시. 인간의 뇌도 통신 네트워크의 일부가 된 사회에서 가장 극악한 범죄는 
+            광의의 영혼을 뜻하는 ‘고스트’를 해킹해 타인의 기억 등을 조작, 변경시키는 '고스트 해킹'이다.
+            인형사(Puppet Master)라 불리는 정체불명의 악명 높은 고스트 해커를 막기 위해 공각기동대가 나선다. 
+            일종의 사이보그인 쿠사나기 소령과 그 일행은 사건을 수사하던 중 인형사에 얽힌 비밀을 알게 된다.
+        </dc:description>
+        <af:voiceCast>
+            <af:voiceActor>
+                <af:actorName>Atsuko Tanaka</af:actorName>
+                <af:actorNameJa>田中 敦子</af:actorNameJa>
+                <af:characterName>Motoko Kusanagi</af:characterName>
+                <af:characterNameJa>草薙 素子</af:characterNameJa>
+                <af:roleType>lead</af:roleType>
+            </af:voiceActor>
+            <af:voiceActor>
+                <af:actorName>Akio Ōtsuka</af:actorName>
+                <af:actorNameJa>大塚 明夫</af:actorNameJa>
+                <af:characterName>Batou</af:characterName>
+                <af:characterNameJa>バトー</af:characterNameJa>
+                <af:roleType>lead</af:roleType>
+            </af:voiceActor>
+            <af:voiceActor>
+                <af:actorName>Iemasa Kayum</af:actorName>
+                <af:actorNameJa>家弓 家正</af:actorNameJa>
+                <af:characterName>Puppet Master</af:characterName>
+                <af:characterNameJa>人形使い </af:characterNameJa>
+                <af:roleType>lead</af:roleType>
+            </af:voiceActor>
+            <af:voiceActor>
+                <af:actorName>Tamio Oki</af:actorName>
+                <af:actorNameJa>大木 民夫 </af:actorNameJa>
+                <af:characterName>Daisuke Aramaki</af:characterName>
+                <af:characterNameJa>荒巻大輔</af:characterNameJa>
+                <af:roleType>supporting</af:roleType>
+            </af:voiceActor>
+        </af:voiceCast>
+        <af:musicComposer>
+            <af:name>kenji Kawai</af:name>
+            <af:nameJa>川井 憲次</af:nameJa>
+        </af:musicComposer>
+        <af:award year="1997" category="Picture Award-Theater Category">
+            <af:awardName>The 20th Animation Kobe</af:awardName>
+        </af:award>
+        <af:animationStyle>
+            <af:technique>digital-2D</af:technique>
+            <af:visualDescription>
+                Most parts of the film is hand-drawn, but some scene that becomes invisibility and
+                uses guns or canon adapted digital technoligy. 
+                Appreciating that spectacular and granular hand-drawn scene is abother interesting point. 
+            </af:visualDescription>
+        </af:animationStyle>
+    </af:animeFilm>
+</af:animeFilmCollection>
